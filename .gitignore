@@ -6,7 +6,6 @@ __pycache__/
 .DS_Store
 
 # Editor
-.vscode/
 .idea/
 
 # Scratch / generated review artifacts (keep committed demos in assets/)
@@ -69,3 +68,5 @@ docs/prompts/
 # session ids, which must never reach the public skill.
 docs/WS_*_HANDOVER_*.md
 docs/PR_DISTILLED.md
+config.bat
+node_modules
