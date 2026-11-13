@@ -24,6 +24,8 @@ concurrency:
 
 jobs:
   triage:
+    # Upstream issue automation must not write from organization forks.
+    if: github.repository == 'img2threejs/img2threejs'
     uses: img2threejs/ci-workflows/.github/workflows/issue-triage.yml@dd3a7730cacb6ab00cc853be606ce72de389a54c
     with:
       mode: ${{ github.event_name == 'schedule' && 'backfill' || inputs.mode }}
