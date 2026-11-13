@@ -10,6 +10,9 @@
   "engines": {
     "node": ">=18"
   },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
   "scripts": {
     "test": "node --test bin/img2threejs.mjs-test.mjs",
     "package:check": "npm pack --dry-run"

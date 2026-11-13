@@ -6,7 +6,6 @@ __pycache__/
 .DS_Store
 
 # Editor
-.vscode/
 .idea/
 
 # Scratch / generated review artifacts (keep committed demos in assets/)
@@ -100,3 +99,4 @@ docs/PR_DISTILLED.md
 # Written by the harness when it points a checkout at a temp core: one line holding an absolute path
 # under /var/folders, dead the moment that temp dir is reaped. Machine-local by construction.
 /_img2_local.py
+config.bat
